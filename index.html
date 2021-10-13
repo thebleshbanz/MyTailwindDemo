@@ -7,28 +7,77 @@
     <title>My Tailwind - Index Page</title>
     <link rel="stylesheet" href="http://localhost:3000/css/tailwind.css" />
 </head>
-<body>
-    <div>
-        <!-- Center Heading -->
-        <h2>Welcome To My Tailwind Index Page</h2>
-        <!-- Notes -->
-        <div>
-            <p>Here You can visit different type of design with different practices code.</p>
-            <p>Click on below link to redirect to desired page.</p>
+<body class="m-0 p-0 bg-gray-200">
+    
+    
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Header background Black -->
+        <div class="h-40 bg-gray-900"></div>
+
+        <!-- Brand Info -->
+        <div class="bg-white w-4/5 h-auto rounded-md mx-auto -mt-12 mb-4">
+            <div class="flex justify-center">
+                <img class="rounded-full border-4 border-gray-900 w-24 h-24 -mt-12" src="/images/logo.jpeg" alt="logo">
+            </div>
+            <div class="m-5 text-center">
+                <h2 class="m-4 text-xl " >Welcome To My Tailwind Index Page</h2>
+                <!-- Notes -->
+                <div class="m-4">
+                    <p>Here You can visit different type of design with different practices code.</p>
+                    <p>Click on below link to redirect to desired page.</p>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <ul>
-                <li>
-                    <a href="/demo/">Demo Example</a>
-                    <a href="/ui/">UI Example</a>
-                </li>
-            </ul>
+        <!-- All Tags -->
+        <div class="bg-white w-4/5 h-auto rounded-md mx-auto">
+            
+            <div class="m-4">
+                <h3>All Indexing Grid</h3>
+            </div>
+
+            <div class="mx-8 p-4 flex justify-center">
+                <!-- col-1 -->
+                <div class="rounded-md w-1/3 bg-red-200 mx-2 h-48 border-t-8 border-black ">
+                    <div class="px-4">
+                        <h6 class=" text-gray-600 font-bold my-2 ">Zero To Hero - Tutorial</h6>
+                        <div class="text-xs overflow-auto">
+                            <p>Pellentesque tincidunt erat at libero dignissim ultricies. Phasellus vel turpis ligula. Integer ac pharetra sapien, ac eleifend urna. Nulla dignissim rhoncus aliquet. Integer vitae facilisis nulla. Suspendisse potenti. Quisque in vulputate risus.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- col-2 -->
+                <div class="rounded-md w-1/3 bg-red-200 mx-2 h-48 border-t-8 border-black ">
+                    <div class="px-4">
+                        <h6 class=" text-gray-600 font-bold my-2 ">Zero To Hero - Tutorial 2 </h6>
+                        <div class="text-xs overflow-auto">
+                            <p>Pellentesque tincidunt erat at libero dignissim ultricies. Phasellus vel turpis ligula. Integer ac pharetra sapien, ac eleifend urna. Nulla dignissim rhoncus aliquet. Integer vitae facilisis nulla. Suspendisse potenti. Quisque in vulputate risus.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- col-3 -->
+                <div class="rounded-md w-1/3 bg-red-200 mx-2 h-48 border-t-8 border-black ">
+                    <div class="px-4">
+                        <h6 class=" text-gray-600 font-bold my-2 ">Zero To Hero - Tutorial 3</h6>
+                        <div class="text-xs overflow-auto">
+                            <p>Pellentesque tincidunt erat at libero dignissim ultricies. Phasellus vel turpis ligula. Integer ac pharetra sapien, ac eleifend urna. Nulla dignissim rhoncus aliquet. Integer vitae facilisis nulla. Suspendisse potenti. Quisque in vulputate risus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
-    <div>
-        <p></p>
+    <!-- Footer -->
+    <div class="w-full bg-gray-300">
+        <div class="w-4/5 h-20 mx-auto">
+            <div class=" p-4 text-center ">
+                <p>Footer</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
